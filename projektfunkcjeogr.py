@@ -1,12 +1,4 @@
- def mnozenie(lista1, lista2):
-     if len(lista1) == len(lista2):
-         if len(lista1) > 0:
-             przemnozone = lista1[0] * lista2[0]
-             return przemnozone, mnozenie(lista1[1:], lista2[1:])
-         else:
-             return
-     else:
-         return "LISTY POWINNY BYĆ RÓWNEJ DŁUGOŚCI!"
+#hej :-)
 
 
  pierwszaLista = [1,2,3,4]
