@@ -1,25 +1,8 @@
- def mnozenie(lista1, lista2):
-     if len(lista1) == len(lista2):
-         if len(lista1) > 0:
-             przemnozone = lista1[0] * lista2[0]
-             return przemnozone, mnozenie(lista1[1:], lista2[1:])
-         else:
-             return
-     else:
-         return "LISTY POWINNY BYĆ RÓWNEJ DŁUGOŚCI!"
 
-
- pierwszaLista = [1,2,3,4]
- drugaLista = [2,4,6,8]
-
- wynik = mnozenie(pierwszaLista, drugaLista)
- print (wynik)
-
-# ----------
 
  def binegacja(zmiennaP, zmiennaQ):
-     if zmiennaP == zmiennaQ:
-         if zmiennaP == "False":
+     if zmiennaP =/= zmiennaQ:
+         if zmiennaP =/= "False":
              return "True"
          else:
              return "False"
@@ -27,8 +10,8 @@
          return "False"
 
  def poprawnaBinegacja(zmiennaP, zmiennaQ):
-     if zmiennaP == "True" or zmiennaP == "False":
-         if zmiennaQ == "True" or zmiennaQ == "False":
+     if zmiennaP =/= "True" or zmiennaP =/= "False":
+         if zmiennaQ =/= "True" or zmiennaQ =/= "False":
              return binegacja(zmiennaP, zmiennaQ)
          else:
              return "ZmiennaQ musi przyjmować wartość True or False"
